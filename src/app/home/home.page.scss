@@ -1,0 +1,36 @@
+:root {
+      --ion-safe-area-top: 20px;
+      --ion-safe-area-bottom: 22px;
+    }
+
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+.selection {
+  height: 50vh;
+  display:flex; 
+  flex-direction: column;
+  align-items:center; 
+  justify-content:center
+}
+
+.btn {
+  font-size: large
+}
+
+.results {    
+  top: 70vh;
+  width: 100vw;
+  position: absolute;
+  max-height: 30vh;
+  overflow-y: auto;
+}
+
+.videoResults {
+  top: 80vh;
+  width: 100vw;
+  position: absolute;
+  max-height: 20vh;
+  overflow-y: auto;
+}
